@@ -16,7 +16,7 @@
         <div class="column">
             <form id="users-searchbox">
                <input type="text" name="city" id="city" class="search-box" placeholder="search">
-               <button id="button">Submit</button>
+               <button id="submit">Submit</button>
             </form>
         </div>
     </div>
@@ -24,17 +24,18 @@
     <div class="container-2">
     <div class="row-1" id="current-day">
         <div class="current-city-title">
-            <h2 class="cityTitle">cityTitle"></h1>
-            <div class="temperature">Temperature:<p class="tempPlacement"></p></div>
-            <div class="humidity">Humidity:<p class="humidityPlacement"></p></div>
-            <div class="windSpeed">Wind Speed:<p class="windSpeedPlacement"></p></div>
-            <div class="uvIndex">UV Index:<p class="uvIndexPlacement"></p></div>     
+            <h2 class="cityName"></h1>
+            <div class="tempPlacement"></div><br/>
+            <div class="humidityPlacement"></div></br>
+            <div class="windSpeedPlacement"></div>
+            <!--<div class="uvIndex">UV Index:<p class="uvIndexPlacement"></p></div><!-->     
     </div>
 </div>
 
 
     <div class="row-2">
         <h2 class="5-day-forecast">5-Day Forecast</h2>
+        <div class="card-deck" id="forecast-cards"></div>
     </div>
 </div>
 </div>
