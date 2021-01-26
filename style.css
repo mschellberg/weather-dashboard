@@ -31,18 +31,33 @@ form.user-form Submit {
 
 div.container-2 {
     background-color: white;
-    padding: 20px;
+    padding: 20px 40px;
 }
+
+input[type="text" i], input.button {
+    padding: 5px;
+}
+
+.localStorage {
+    list-style-type: none;
+    padding: 5px;
+}
+
+p {
+    border-radius: 5px;
+    padding: 5px;
+    background: #14abfc;
+    color: white;
+    width: 15%;
+    float: left;
+    margin: 3px;
+}
+
 .container {
-    padding: 15px 25px;
     background-color: #f0f0f0;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr ;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    }
+    grid-template-columns: 350px 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
     
-    .div1 { grid-area: 2 / 1 / 3 / 2; }
-    .div2 { grid-area: 2 / 1 / 3 / 2; };
-    
+}

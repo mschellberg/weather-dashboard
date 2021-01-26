@@ -46,10 +46,10 @@ $.ajax({
         
         var weekdayName = daysOfTheWeek[dayNumber];
       weekDay += "<p>"
-      weekDay += "<b> " + weekdayName + "</b>: " // Day
-      weekDay += val.main.temp + "&degF" // Temperature
-      weekDay += "<span> | " + val.weather[0].description + "</span>"; // Description
-      weekDay += "<img src='https://openweathermap.org/img/w/" + val.weather[0].icon + ".png'>" // Icon
+      weekDay += "<b> " + weekdayName + "</b> " + "<br>" // Day
+      weekDay += "<img src='https://openweathermap.org/img/w/" + val.weather[0].icon + ".png'>" + "<br>"// Icon 
+      weekDay += "Temp: " + val.main.temp + "&degF" + "<br>" + "<br>"// Temperature
+      weekDay += "<span>" + "Humidity: "+ val.main.humidity + "%" + "</span>" // Humidity
       weekDay += "</p>" 
     }
       prevDayNumber = dayNumber;
