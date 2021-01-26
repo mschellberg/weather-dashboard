@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Dashboard</title>
     <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     
@@ -12,13 +13,14 @@
 
     <div class="container">
 
-    <div class="searchForCity">Search for a City:
+    <div class="searchForCity"><b>Search for a City:</b>
         <div class="column">
-            <form id="users-searchbox">
-               <input type="text" name="city" id="city" class="search-box" placeholder="search">
-               <button id="submit">Submit</button>
+            <form class="user-form">
+               <input type="text" class="inputValue" placeholder="Philadelphia">
+               <input type="submit" value="Submit" class="button" >
             </form>
         </div>
+        <ul class="localStorage"></ul>
     </div>
 
     <div class="container-2">
